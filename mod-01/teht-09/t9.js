@@ -1,6 +1,9 @@
 const number = +prompt('Write a number');
 let is_prime = true;
 
+if (number < 2) {
+  is_prime = false
+}
 for (let i = 2; i < number; i++) {
   if (number % i === 0) {
     is_prime = false;
