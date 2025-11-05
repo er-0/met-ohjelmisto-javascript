@@ -6,24 +6,24 @@ function getRandomIntInclusive(min, max) {
 }
 
 const name = prompt('Give your name');
-const house_num = getRandomIntInclusive(1, 4)
-let house
+const house_num = getRandomIntInclusive(1, 4);
+let house;
 
 switch (house_num) {
-    case 1:
-        house = 'Gryffindor';
-        break;
-    case 2:
-        house = 'Hufflepuff';
-        break;
-    case 3:
-        house = 'Slytherin';
-        break;
-    case 4:
-        house = 'Ravenclaw';
-        break;
-    default:
-        console.log("Random number error.");
+  case 1:
+    house = 'Gryffindor';
+    break;
+  case 2:
+    house = 'Hufflepuff';
+    break;
+  case 3:
+    house = 'Slytherin';
+    break;
+  case 4:
+    house = 'Ravenclaw';
+    break;
+  default:
+    console.log('Random number error.');
 }
 
-document.querySelector('#target').innerHTML = `${name}, you are a ${house}`
+document.querySelector('#target').innerHTML = `${name}, you are a ${house}`;
