@@ -1,3 +1,5 @@
+'use strict';
+
 const start_year = +prompt('Write a start year');
 const end_year = +prompt('Write a end year');
 let is_leap;
