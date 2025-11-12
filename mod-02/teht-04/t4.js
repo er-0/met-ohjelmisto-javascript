@@ -9,5 +9,5 @@ while (number !== 0) {
 
 numbers.sort((a, b) => b - a);
 for (number of numbers) {
-  console.log(number)
+  console.log(number);
 }

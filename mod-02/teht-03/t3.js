@@ -1,13 +1,13 @@
 'use strict';
 
-const dogs = []
+const dogs = [];
 for (let i = 0; i < 6; i++) {
-  let dog = prompt("Add a dog")
-  dogs.push(dog)
+  let dog = prompt('Add a dog');
+  dogs.push(dog);
 }
 
-dogs.sort().reverse()
+dogs.sort().reverse();
 
 for (let i = 0; i < 6; i++) {
-  document.querySelector('#target').innerHTML += `<li>${dogs[i]}</li>`
+  document.querySelector('#target').innerHTML += `<li>${dogs[i]}</li>`;
 }
